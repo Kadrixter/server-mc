@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737520713811
+  login: 1737520504598
+money: '0'
+last-account-name: Kadrixxter
+logoutlocation:
+  world: a8471e34-ea61-4fa6-a484-e78ad40373dd
+  world-name: world
+  x: -950.3280323849943
+  y: 2.0
+  z: -874.0280789401701
+  yaw: 319.1175537109375
+  pitch: 19.797882080078125

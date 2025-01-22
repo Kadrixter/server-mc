@@ -1,0 +1,20 @@
+{
+  "uuid": "1c1bf35d-8c80-36d5-acda-6d9100ca83f9",
+  "name": "Brolex",
+  "wins": 0,
+  "losses": 1,
+  "requests": true,
+  "rating": {
+    "arena1": 1384
+  },
+  "matches": [
+    {
+      "winner": "Kadrixxter",
+      "loser": "Brolex",
+      "kit": "arena1",
+      "time": 1737520720873,
+      "duration": 20611,
+      "health": 10.0
+    }
+  ]
+}

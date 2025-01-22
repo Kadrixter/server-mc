@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737520974265
+  login: 1737520777903
+money: '0'
+last-account-name: Brolex
+lastlocation:
+  world: a8471e34-ea61-4fa6-a484-e78ad40373dd
+  world-name: world
+  x: -948.4453916447791
+  y: 2.0
+  z: -872.5738024429592
+  yaw: 270.3406982421875
+  pitch: 11.116387367248535
+logoutlocation:
+  world: a8471e34-ea61-4fa6-a484-e78ad40373dd
+  world-name: world
+  x: -948.4453916447791
+  y: 2.0
+  z: -872.5738024429592
+  yaw: 270.3406982421875
+  pitch: 11.116387367248535
