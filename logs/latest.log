@@ -1,32 +1,47 @@
-[06:21:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[06:21:06] [Server thread/INFO]: Loading properties
-[06:21:06] [Server thread/INFO]: Default game type: SURVIVAL
-[06:21:06] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[06:21:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:29:58] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[06:29:58] [Server thread/INFO]: Loading properties
+[06:29:58] [Server thread/INFO]: Default game type: SURVIVAL
+[06:29:58] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[06:29:58] [Server thread/INFO]: Debug logging is disabled
+[06:29:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:29:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[06:21:06] [Server thread/INFO]: Debug logging is disabled
-[06:21:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:21:06] [Server thread/INFO]: Generating keypair
-[06:21:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:21:06] [Server thread/INFO]: Using default channel type
-[06:21:06] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[06:21:07] [Server thread/ERROR]: Ambiguous plugin name `nAntiBot' for files `plugins\nAntiBot.jar' and `plugins\nAntiBot-6.1.27.jar' in `plugins'
-[06:21:07] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[06:21:07] [Server thread/ERROR]: Could not load 'plugins\TabCompleter.jar' in folder 'plugins'
+[06:29:58] [Server thread/INFO]: Generating keypair
+[06:29:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:29:58] [Server thread/INFO]: Using default channel type
+[06:29:58] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[06:29:58] [Server thread/ERROR]: Ambiguous plugin name `nAntiBot' for files `plugins\nAntiBot.jar' and `plugins\nAntiBot-6.1.27.jar' in `plugins'
+[06:29:58] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:29:58] [Server thread/ERROR]: Could not load 'plugins\askyblock.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Vault
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
-[06:21:07] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.153
-[06:21:07] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[06:21:07] [Server thread/INFO]: [nAntiBot] Loading nAntiBot v6.1.26
-[06:21:07] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+155-803771e
-[06:21:07] [Server thread/INFO]: [OpeNLogin] Loading OpeNLogin v1.6.7
-[06:21:07] [Server thread/INFO]: [Duels] Loading Duels v3.5.3
-[06:21:07] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
-[06:21:08] [Server thread/ERROR]: null initializing ProtocolLib v5.2.0-SNAPSHOT-679 (Is it up to date?)
+[06:29:58] [Server thread/ERROR]: Could not load 'plugins\TabCompleter.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+[06:29:58] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.153
+[06:29:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[06:29:58] [Server thread/INFO]: [nAntiBot] Loading nAntiBot v6.1.26
+[06:29:58] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[06:29:58] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[06:29:58] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[06:29:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+155-803771e
+[06:29:59] [Server thread/INFO]: [OpeNLogin] Loading OpeNLogin v1.6.7
+[06:29:59] [Server thread/INFO]: [Duels] Loading Duels v3.5.3
+[06:29:59] [Server thread/INFO]: [BedWars] Loading BedWars v0.2.36.1
+[06:29:59] [Server thread/INFO]: [SimpleSit] Loading SimpleSit v1.7.1
+[06:29:59] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[06:29:59] [Server thread/ERROR]: null initializing ProtocolLib v5.2.0-SNAPSHOT-679 (Is it up to date?)
 java.lang.ExceptionInInitializerError
 	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.<clinit>(NetworkManagerInjector.java:39) ~[?:?]
 	at com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:111) ~[?:?]
@@ -36,7 +51,7 @@ java.lang.ExceptionInInitializerError
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) ~[patched_1.8.8.jar:git-Spigot-21fe707-e1ebe52]
 	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
-Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unable to make protected java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @c7095a6
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unable to make protected java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @b6e7c96
 	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable$Unavailable.defineClass(ClassInjector.java:472) ~[?:?]
 	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection.injectRaw(ClassInjector.java:284) ~[?:?]
 	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase.inject(ClassInjector.java:118) ~[?:?]
@@ -47,317 +62,365 @@ Caused by: java.lang.UnsupportedOperationException: Cannot define class using re
 	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.setupProxyPlayerConstructor(TemporaryPlayerFactory.java:159) ~[?:?]
 	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.<clinit>(TemporaryPlayerFactory.java:47) ~[?:?]
 	... 8 more
-[06:21:08] [Server thread/INFO]: [nLogin] Loading nLogin v10.4.18
-[06:21:08] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
-[06:21:08] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[06:29:59] [Server thread/INFO]: [nLogin] Loading nLogin v10.4.18
+[06:29:59] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v15.5.1
+[06:29:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
+[06:29:59] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
 
-[06:21:08] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.153[m
+[06:29:59] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.153[m
 
-[06:21:08] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[06:29:59] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
 
-[06:21:08] [Server thread/INFO]: [m
+[06:29:59] [Server thread/INFO]: [m
 
-[06:21:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:21:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:21:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:21:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:21:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 660ms)
-[06:21:09] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.26
-[06:21:09] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.16s)[m
+[06:29:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:30:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:30:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:30:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:30:00] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 619ms)
+[06:30:00] [Server thread/INFO]: [nAntiBot] Enabling nAntiBot v6.1.26
+[06:30:00] [Server thread/INFO]: [nAntiBot] Successful plugin core start (took 0.17s)[m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m          _         _   _   ___       _   [m
+[06:30:00] [Server thread/INFO]: [0;31;1m          _         _   _   ___       _   [m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [m
+[06:30:00] [Server thread/INFO]: [0;31;1m  _ __   /_\  _ __ | |_(_) / __\ ___ | |_ [m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[m
+[06:30:00] [Server thread/INFO]: [0;31;1m | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|[m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [m
+[06:30:00] [Server thread/INFO]: [0;31;1m | | | /  _  \ | | | |_| / \/  \ (_) | |_ [m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[m
+[06:30:00] [Server thread/INFO]: [0;31;1m |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|[m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m                                         [m
+[06:30:00] [Server thread/INFO]: [0;31;1m                                         [m
 
-[06:21:09] [Server thread/INFO]: [0;31;1m By: www.nickuc.com - V 6.1.26[m
+[06:30:00] [Server thread/INFO]: [0;31;1m By: www.nickuc.com - V 6.1.26[m
 
-[06:21:09] [Server thread/INFO]: [m
+[06:30:00] [Server thread/INFO]: [m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] The server is using an outdated version of Netty.[m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] The server is using an outdated version of Netty.[m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] Detected version: 4.0.23.Final[m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] Detected version: 4.0.23.Final[m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] It is recommended to update to your server's JAR to avoid performance problems.[m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] It is recommended to update to your server's JAR to avoid performance problems.[m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] Server platform: PlatformVersion(name=CraftBukkit, version=git-Spigot-21fe707-e1ebe52 (MC: 1.8.8), fullVersion=Bukkit: 1.8.8-R0.1-SNAPSHOT | Server: git-Spigot-21fe707-e1ebe52 (MC: 1.8.8), type=Bukkit, hybrid=false)[m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] Server platform: PlatformVersion(name=CraftBukkit, version=git-Spigot-21fe707-e1ebe52 (MC: 1.8.8), fullVersion=Bukkit: 1.8.8-R0.1-SNAPSHOT | Server: git-Spigot-21fe707-e1ebe52 (MC: 1.8.8), type=Bukkit, hybrid=false)[m
 
-[06:21:09] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
+[06:30:00] [Server thread/INFO]: [0;33;1m[nAntiBot] [WARN] [m
 
-[06:21:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[06:21:14] [Server thread/ERROR]: ******************************************************
-[06:21:14] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
-[06:21:14] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
-[06:21:14] [Server thread/ERROR]: ******************************************************
-[06:21:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
-[06:21:14] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.18
-[06:21:15] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.17s)[m
+[06:30:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[06:30:06] [Server thread/ERROR]: ******************************************************
+[06:30:06] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[06:30:06] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[06:30:06] [Server thread/ERROR]: ******************************************************
+[06:30:06] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[06:30:06] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.18
+[06:30:06] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.17s)[m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m          __             _       [m
+[06:30:06] [Server thread/INFO]: [0;34;1m          __             _       [m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
+[06:30:06] [Server thread/INFO]: [0;34;1m  _ __   / /  ___   __ _(_)_ __  [m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
+[06:30:06] [Server thread/INFO]: [0;34;1m | '_ \ / /  / _ \ / _` | | '_ \ [m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
+[06:30:06] [Server thread/INFO]: [0;34;1m | | | / /__| (_) | (_| | | | | |[m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
+[06:30:06] [Server thread/INFO]: [0;34;1m |_| |_\____/\___/ \__, |_|_| |_|[m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m                  |___/            [m
+[06:30:06] [Server thread/INFO]: [0;34;1m                  |___/            [m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.4.18 DEVELOPMENT[m
+[06:30:06] [Server thread/INFO]: [0;34;1m By: www.nickuc.com - V 10.4.18 DEVELOPMENT[m
 
-[06:21:15] [Server thread/INFO]: [0;34;1m [m
+[06:30:06] [Server thread/INFO]: [0;34;1m [m
 
-[06:21:15] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] [m
+[06:30:06] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] [m
 
-[06:21:15] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] ProtocolLib was installed, but may not have loaded correctly.[m
+[06:30:06] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] ProtocolLib was installed, but may not have loaded correctly.[m
 
-[06:21:15] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] If you decide to continue, some nLogin components may not fully function.[m
+[06:30:06] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] If you decide to continue, some nLogin components may not fully function.[m
 
-[06:21:15] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] [m
+[06:30:06] [Server thread/INFO]: [0;33;1m[nLogin] [WARN] [m
 
-[06:21:15] [Server thread/WARN]: java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketListener
+[06:30:06] [Server thread/WARN]: java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketListener
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.I(:60)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.I(:60)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.<init>(:55)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.πιμΦζΩτχβΦγυξΛ.<init>(:55)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.j(:176)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.ςμκΔΣιζρΛξΨιθφΠ.j(:176)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.ΨΨβυλξηνσθ.h(:214)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.ΨΨβυλξηνσθ.h(:214)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.φξγΦηχθοςι.h(:71)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.φξγΦηχθοςι.h(:71)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.bukkit.nLoginBukkit.h(:59)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.bukkit.nLoginBukkit.h(:59)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.ωωξΠζΨΛζροθδβγ.h(:69)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.ωωξΠζΨΛζροθδβγ.h(:69)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.πελπφβυψεσαωοΦ.ao(:295)
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.πελπφβυψεσαωοΦ.ao(:295)
 
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.φξγΦηχθοςι.enable(:49)
-
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.loader.platform.BukkitLoader.onEnable(BukkitLoader.java:32)
-
-[06:21:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
-
-[06:21:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
-
-[06:21:15] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
-
-[06:21:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
-
-[06:21:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
-
-[06:21:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:199)
-
-[06:21:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
-
-[06:21:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
-
-[06:21:15] [Server thread/WARN]: Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.events.PacketListener
-
-[06:21:15] [Server thread/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
-
-[06:21:15] [Server thread/WARN]: 	at com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:56)
-
-[06:21:15] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595)
-
-[06:21:15] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
-
-[06:21:15] [Server thread/WARN]: 	... 18 more
-
-[06:21:15] [Server thread/INFO]: [0;31;22m[nLogin] [ERROR] [0;31;1mCould not hook with ProtocolLib[m
-
-[06:21:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:21:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:21:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:21:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:21:15] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[06:21:15] [Server thread/INFO]: Preparing level "world"
-[06:21:15] [Server thread/INFO]: -------- World Settings For [world] --------
-[06:21:15] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:15] [Server thread/INFO]: View Distance: 10
-[06:21:15] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[06:21:15] [Server thread/INFO]: Clear tick list: false
-[06:21:15] [Server thread/INFO]: Anti X-Ray: true
-[06:21:15] [Server thread/INFO]: 	Engine Mode: 1
-[06:21:15] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[06:21:15] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[06:21:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[06:21:15] [Server thread/INFO]: Max Entity Collisions: 8
-[06:21:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:15] [Server thread/INFO]: Random Lighting Updates: false
-[06:21:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sending up to 10 chunks per packet
-[06:21:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[06:21:15] [Server thread/INFO]: Mob Spawn Range: 4
-[06:21:15] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[06:21:15] [Server thread/INFO]: Structure Info Saving: true
-[06:21:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:15] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:21:15] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:15] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[06:21:15] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:15] [Server thread/INFO]: View Distance: 10
-[06:21:15] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[06:21:15] [Server thread/INFO]: Clear tick list: false
-[06:21:15] [Server thread/INFO]: Anti X-Ray: true
-[06:21:15] [Server thread/INFO]: 	Engine Mode: 1
-[06:21:15] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[06:21:15] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[06:21:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[06:21:15] [Server thread/INFO]: Max Entity Collisions: 8
-[06:21:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:15] [Server thread/INFO]: Random Lighting Updates: false
-[06:21:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sending up to 10 chunks per packet
-[06:21:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[06:21:15] [Server thread/INFO]: Mob Spawn Range: 4
-[06:21:15] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[06:21:15] [Server thread/INFO]: Structure Info Saving: true
-[06:21:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:15] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:21:15] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:15] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[06:21:15] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:15] [Server thread/INFO]: View Distance: 10
-[06:21:15] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[06:21:15] [Server thread/INFO]: Clear tick list: false
-[06:21:15] [Server thread/INFO]: Anti X-Ray: true
-[06:21:15] [Server thread/INFO]: 	Engine Mode: 1
-[06:21:15] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[06:21:15] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[06:21:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[06:21:15] [Server thread/INFO]: Max Entity Collisions: 8
-[06:21:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:15] [Server thread/INFO]: Random Lighting Updates: false
-[06:21:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sending up to 10 chunks per packet
-[06:21:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[06:21:15] [Server thread/INFO]: Mob Spawn Range: 4
-[06:21:15] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[06:21:15] [Server thread/INFO]: Structure Info Saving: true
-[06:21:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:15] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[06:21:15] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:15] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3317786771586123154)
-[06:21:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2184324806517183191)
-[06:21:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2184324806517183191)
-[06:21:16] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
-[06:21:16] [Server thread/WARN]: Ignoring unknown attribute 'generic.armorToughness'
-[06:21:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[06:21:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[06:21:16] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[06:21:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+155-803771e
-[06:21:16] [Server thread/INFO]: Używasz serwera o ograniczonej funkcjonalności API. EssentialsX nadal działa, ale niektóre funkcje mogą być wyłączone.
-[06:21:16] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[06:21:16] [Server thread/INFO]: No kits found to migrate.
-[06:21:17] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
-[06:21:17] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
-[06:21:17] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
-[06:21:17] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
-[06:21:17] [Server thread/INFO]: Selected 1.8 Spawn Egg Provider as the provider for SpawnEggProvider
-[06:21:17] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[06:21:17] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[06:21:17] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[06:21:17] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
-[06:21:17] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[06:21:17] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
-[06:21:17] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
-[06:21:17] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
-[06:21:17] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[06:21:17] [Server thread/INFO]: Selected Legacy Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[06:21:17] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
-[06:21:17] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
-[06:21:17] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[06:21:17] [Server thread/INFO]: Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[06:21:17] [Server thread/INFO]: Selected Legacy Player Locale Provider as the provider for PlayerLocaleProvider
-[06:21:17] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[06:21:17] [Server thread/INFO]: Loaded 853 items from items.csv.
-[06:21:17] [Server thread/INFO]: Using locale pl_PL
-[06:21:17] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[06:21:17] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[06:21:17] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
-[06:21:17] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[06:21:17] [Server thread/INFO]: Using superperms-based permissions.
-[06:21:17] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
-[06:21:17] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...[m
-
-[06:21:17] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
-[06:21:17] [Server thread/INFO]: [Duels] Enabling Duels v3.5.3
-[06:21:17] [Server thread/INFO]: [Duels] Successfully hooked into 'Essentials'!
-[06:21:17] [Server thread/INFO]: [Duels] KitManagerImpl: Loaded 1 kit(s).
-[06:21:17] [Server thread/INFO]: [Duels] ArenaManagerImpl: Loaded 1 arena(s).
-[06:21:17] [Server thread/INFO]: [Duels] BettingManager: Vault was not found! Money betting feature will be automatically disabled.
-[06:21:17] [Server thread/INFO]: [Duels] QueueManager: Loaded 2 queue(s).
-[06:21:17] [Server thread/INFO]: [Duels] QueueSignManagerImpl: Loaded 1 queue sign(s).
-[06:21:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:21:17] [Server thread/INFO]: Done (1,894s)! For help, type "help" or "?"
-[06:21:17] [Craft Scheduler Thread - 1/INFO]: [nAntiBot] [0;32;1mConnecting to the remote server antibot.nickuc.com...[m
-
-[06:21:17] [Craft Scheduler Thread - 5/INFO]: §7Pobieranie informacji o wersji…
-[06:21:17] [Craft Scheduler Thread - 0/INFO]: [Duels] No updates were available. You are on the latest version!
-[06:21:19] [Craft Scheduler Thread - 2/INFO]: [nAntiBot] Download finished (took 1475ms, hash = f0ced0b6281b21e8fd9e20e24b00665714f671c514e0267f1ec22c60bd2cca82)[m
-
-[06:21:19] [pool-7-thread-12/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 44, threads = 12, took 4.60s)[m
-
-[06:21:19] [Thread-12/INFO]: UUID of player Kadrixxter is fa78bbc2-1c43-33f0-89d3-af91489fc21b
-[06:21:19] [Server thread/INFO]: Kadrixxter[/127.0.0.1:59714] logged in with entity id 21 at ([world]-949.082410872377, 2.0, -872.5755500201775)
-[06:21:31] [Craft Scheduler Thread - 5/INFO]: [nLogin] The user Kadrixxter has successfully logged in.[m
-
-[06:21:46] [Server thread/INFO]: Kadrixxter issued server command: /op Brolex
-[06:21:46] [Server thread/INFO]: [Kadrixxter: Opped Brolex]
-[06:21:52] [Server thread/INFO]: Kadrixxter issued server command: /op Kadrixter
-[06:21:54] [Server thread/INFO]: [Kadrixxter: Opped Kadrixter]
-[06:21:57] [Server thread/INFO]: Kadrixxter issued server command: /op Kadrixxter
-[06:21:57] [Server thread/INFO]: [Kadrixxter: Opped Kadrixxter]
-[06:23:26] [Server thread/INFO]: Kadrixxter issued server command: /olugins
-[06:23:32] [Server thread/INFO]: Kadrixxter issued server command: /plugins
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.φξγΦηχθοςι.enable(:49)
+
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.loader.platform.BukkitLoader.onEnable(BukkitLoader.java:32)
+
+[06:30:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[06:30:06] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+
+[06:30:06] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+
+[06:30:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
+
+[06:30:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
+
+[06:30:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:199)
+
+[06:30:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+
+[06:30:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+[06:30:06] [Server thread/WARN]: Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.events.PacketListener
+
+[06:30:06] [Server thread/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+
+[06:30:06] [Server thread/WARN]: 	at com.nickuc.login.loader.MemClassLoader.findClass(MemClassLoader.java:56)
+
+[06:30:06] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:595)
+
+[06:30:06] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+
+[06:30:06] [Server thread/WARN]: 	... 18 more
+
+[06:30:06] [Server thread/INFO]: [0;31;22m[nLogin] [ERROR] [0;31;1mCould not hook with ProtocolLib[m
+
+[06:30:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[06:30:06] [Server thread/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[06:30:07] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.8.8[32;1m.[0;39m[m
+
+[06:30:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:30:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:30:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:30:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:30:07] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[06:30:07] [Server thread/INFO]: Preparing level "world"
+[06:30:07] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:30:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:30:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:30:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:30:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:30:07] [Server thread/INFO]: Clear tick list: false
+[06:30:07] [Server thread/INFO]: View Distance: 10
+[06:30:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:30:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:30:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:30:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Random Lighting Updates: false
+[06:30:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:30:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:30:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:30:07] [Server thread/INFO]: Structure Info Saving: true
+[06:30:07] [Server thread/INFO]: Mob Spawn Range: 4
+[06:30:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:30:07] [Server thread/INFO]: Max Entity Collisions: 8
+[06:30:07] [Server thread/INFO]: Max TNT Explosions: 100
+[06:30:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:30:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:30:07] [Server thread/INFO]: Anti X-Ray: true
+[06:30:07] [Server thread/INFO]: 	Engine Mode: 1
+[06:30:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:30:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:30:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:30:07] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:30:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:30:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:30:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:30:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:30:07] [Server thread/INFO]: Clear tick list: false
+[06:30:07] [Server thread/INFO]: View Distance: 10
+[06:30:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:30:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:30:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:30:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Random Lighting Updates: false
+[06:30:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:30:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:30:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:30:07] [Server thread/INFO]: Structure Info Saving: true
+[06:30:07] [Server thread/INFO]: Mob Spawn Range: 4
+[06:30:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:30:07] [Server thread/INFO]: Max Entity Collisions: 8
+[06:30:07] [Server thread/INFO]: Max TNT Explosions: 100
+[06:30:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:30:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:30:07] [Server thread/INFO]: Anti X-Ray: true
+[06:30:07] [Server thread/INFO]: 	Engine Mode: 1
+[06:30:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:30:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:30:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:30:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:30:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:30:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:30:07] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:30:07] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:30:07] [Server thread/INFO]: Clear tick list: false
+[06:30:07] [Server thread/INFO]: View Distance: 10
+[06:30:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:30:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:30:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:30:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:30:07] [Server thread/INFO]: Random Lighting Updates: false
+[06:30:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:30:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:30:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:30:07] [Server thread/INFO]: Structure Info Saving: true
+[06:30:07] [Server thread/INFO]: Mob Spawn Range: 4
+[06:30:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:30:07] [Server thread/INFO]: Max Entity Collisions: 8
+[06:30:07] [Server thread/INFO]: Max TNT Explosions: 100
+[06:30:07] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:30:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:30:07] [Server thread/INFO]: Anti X-Ray: true
+[06:30:07] [Server thread/INFO]: 	Engine Mode: 1
+[06:30:07] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:30:07] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:30:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:30:07] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3317786771586123154)
+[06:30:07] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2184324806517183191)
+[06:30:08] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2184324806517183191)
+[06:30:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[06:30:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[06:30:08] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[06:30:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+155-803771e
+[06:30:08] [Server thread/INFO]: Używasz serwera o ograniczonej funkcjonalności API. EssentialsX nadal działa, ale niektóre funkcje mogą być wyłączone.
+[06:30:08] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[06:30:08] [Server thread/INFO]: No kits found to migrate.
+[06:30:08] [Server thread/INFO]: No provider found for SignDataProvider, but it is nullable
+[06:30:08] [Server thread/INFO]: No provider found for MaterialTagProvider, but it is nullable
+[06:30:08] [Server thread/INFO]: Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:30:08] [Server thread/INFO]: Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[06:30:08] [Server thread/INFO]: Selected 1.8 Spawn Egg Provider as the provider for SpawnEggProvider
+[06:30:08] [Server thread/INFO]: Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[06:30:08] [Server thread/INFO]: Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[06:30:08] [Server thread/INFO]: Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[06:30:08] [Server thread/INFO]: Selected Legacy Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:30:08] [Server thread/INFO]: Selected Legacy Player Locale Provider as the provider for PlayerLocaleProvider
+[06:30:08] [Server thread/INFO]: Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[06:30:08] [Server thread/INFO]: No provider found for BiomeKeyProvider, but it is nullable
+[06:30:08] [Server thread/INFO]: No provider found for SerializationProvider, but it is nullable
+[06:30:08] [Server thread/INFO]: No provider found for ContainerProvider, but it is nullable
+[06:30:08] [Server thread/INFO]: Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:30:08] [Server thread/INFO]: Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:30:08] [Server thread/INFO]: Selected Reflection Known Commands Provider as the provider for KnownCommandsProvider
+[06:30:08] [Server thread/INFO]: Selected Reflection Server State Provider as the provider for ServerStateProvider
+[06:30:08] [Server thread/INFO]: Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:30:08] [Server thread/INFO]: Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[06:30:08] [Server thread/INFO]: Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:30:08] [Server thread/INFO]: Loaded 853 items from items.csv.
+[06:30:08] [Server thread/INFO]: Using locale pl_PL
+[06:30:08] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[06:30:08] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[06:30:08] [Server thread/WARN]: Detected supported permissions plugin LuckPerms without Vault installed.
+[06:30:08] [Server thread/WARN]: Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[06:30:08] [Server thread/INFO]: Using superperms-based permissions.
+[06:30:08] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
+[06:30:08] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...[m
+
+[06:30:08] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
+[06:30:08] [Server thread/INFO]: [Duels] Enabling Duels v3.5.3
+[06:30:08] [Server thread/INFO]: [Duels] Successfully hooked into 'Essentials'!
+[06:30:09] [Server thread/INFO]: [Duels] KitManagerImpl: Loaded 1 kit(s).
+[06:30:09] [Server thread/INFO]: [Duels] ArenaManagerImpl: Loaded 1 arena(s).
+[06:30:09] [Server thread/INFO]: [Duels] BettingManager: Vault was not found! Money betting feature will be automatically disabled.
+[06:30:09] [Server thread/INFO]: [Duels] QueueManager: Loaded 2 queue(s).
+[06:30:09] [Server thread/INFO]: [Duels] QueueSignManagerImpl: Loaded 1 queue sign(s).
+[06:30:09] [Server thread/INFO]: [BedWars] Enabling BedWars v0.2.36.1
+[06:30:09] [Server thread/INFO]: [BedWars] Successfully loaded messages for BedWars! Language: English
+[06:30:09] [Server thread/INFO]: [BedWars] Loading statistics from YAML-File ...
+[06:30:09] [Server thread/INFO]: [0;36;1m============[0;31;1m===[0;37;1m======  by ScreamingSandals <Misat11, Iamceph, Pronze>[m
+
+[06:30:09] [Server thread/INFO]: [0;36;1m+ Screaming [0;31;1mBed[0;37;1mWars +  [0;33;22mVersion: 0.2.36.1 [0;32;1mFREE[m
+
+[06:30:09] [Server thread/INFO]: [0;36;1m============[0;31;1m===[0;37;1m======  [0;32;1mSTABLE VERSION[m
+
+[06:30:09] [Server thread/INFO]: [0;31;1m[B[0;37;1mW] [0;33;1mYou are using version 1.8! While this version is supported, it is a very old version and some features may not work as expected. Consider upgrading your server.[m
+
+[06:30:09] [Server thread/INFO]: [0;37;1mEverything is loaded! If you like our work, consider visiting our Patreon! <3[m
+
+[06:30:09] [Server thread/INFO]: [0;37;1mhttps://www.patreon.com/screamingsandals[m
+
+[06:30:09] [Server thread/INFO]: [SimpleSit] Enabling SimpleSit v1.7.1
+[06:30:09] [Server thread/WARN]: [SimpleSit] Using legacy armor stand align, for mc versions 1.12 and below.
+[06:30:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:30:09] [Server thread/INFO]: Done (1,985s)! For help, type "help" or "?"
+[06:30:09] [Craft Scheduler Thread - 6/INFO]: [nAntiBot] [0;32;1mConnecting to the remote server antibot.nickuc.com...[m
+
+[06:30:09] [Craft Scheduler Thread - 10/INFO]: §7Pobieranie informacji o wersji…
+[06:30:09] [Craft Scheduler Thread - 2/INFO]: [Duels] No updates were available. You are on the latest version!
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.5.1[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md5d8613[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m[m
+
+[06:30:09] [Craft Scheduler Thread - 7/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m[m
+
+[06:30:10] [Craft Scheduler Thread - 3/INFO]: [nAntiBot] Download finished (took 1263ms, hash = f0ced0b6281b21e8fd9e20e24b00665714f671c514e0267f1ec22c60bd2cca82)[m
+
+[06:30:10] [pool-7-thread-6/INFO]: [nAntiBot] [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 44, threads = 12, took 4.93s)[m
+
+[06:30:25] [Thread-12/INFO]: UUID of player Kadrixxter is fa78bbc2-1c43-33f0-89d3-af91489fc21b
+[06:30:25] [Server thread/INFO]: Kadrixxter[/127.0.0.1:49414] logged in with entity id 21 at ([world]-948.7587468378473, 2.0, -872.017479601077)
+[06:30:35] [Craft Scheduler Thread - 8/INFO]: [nLogin] The user Kadrixxter has successfully logged in.[m
+
+[06:30:39] [Server thread/INFO]: Kadrixxter issued server command: /plugins
+[06:31:19] [Server thread/INFO]: Kadrixxter issued server command: //wand
+[06:32:00] [Server thread/INFO]: Kadrixxter issued server command: //set barrier
+[06:33:08] [Server thread/INFO]: Kadrixxter lost connection: Disconnected
+[06:35:17] [Thread-14/INFO]: UUID of player Kadrixxter is fa78bbc2-1c43-33f0-89d3-af91489fc21b
+[06:35:17] [Server thread/INFO]: Kadrixxter[/[0:0:0:0:0:0:0:1]:62065] logged in with entity id 22 at ([world]-910.6643758247217, 35.490643233610555, -907.8606191955846)
+[06:35:19] [Server thread/INFO]: Kadrixxter lost connection: Disconnected
+[06:35:22] [Thread-15/INFO]: UUID of player Kadrixxter is fa78bbc2-1c43-33f0-89d3-af91489fc21b
+[06:35:22] [Server thread/INFO]: Kadrixxter[/[0:0:0:0:0:0:0:1]:62105] logged in with entity id 23 at ([world]-910.6643758247217, 33.0, -907.8606191955846)
+[06:35:26] [Server thread/INFO]: Kadrixxter lost connection: Disconnected
