@@ -2,5 +2,9 @@
   {
     "kit": "arena1",
     "bet": 100
+  },
+  {
+    "kit": "arena1",
+    "bet": 10
   }
 ]
